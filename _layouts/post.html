@@ -3,11 +3,15 @@ layout: default
 ---
 
 <div class="post-nav">
-    <a href="{{ '/' | relative_url }}" class="back-link">← 首页</a>
+    <a href="{{ '/' | relative_url }}" class="back-link">← 返回首页</a>
     <span class="post-date-label">{{ page.date | date: "%Y年%m月%d日" }}</span>
 </div>
 
-<div id="masonry-grid" class="masonry"></div>
+<h2 class="post-title">{{ page.title }}</h2>
+
+<article class="post-content">
+    {{ content }}
+</article>
 
 <div class="bottom-nav">
     {% if page.next %}
@@ -17,114 +21,3 @@ layout: default
     <a href="{{ page.previous.url | relative_url }}" class="nav-btn nav-btn-right">{{ page.previous.date | date: "%m-%d" }} →</a>
     {% endif %}
 </div>
-
-<div id="raw-content" style="display:none">{{ content }}</div>
-
-<script>
-(function() {
-    const raw = document.getElementById('raw-content');
-    const grid = document.getElementById('masonry-grid');
-
-    const sections = [];
-    let current = null;
-
-    function walk(nodes) {
-        for (const node of nodes) {
-            if (node.nodeType !== 1) continue;
-            const tag = node.tagName;
-
-            if (tag === 'HR') continue;
-
-            if (tag === 'H2') {
-                if (current) sections.push(current);
-                current = { title: node.textContent.trim(), items: [], comment: null };
-            } else if (tag === 'BLOCKQUOTE') {
-                if (current) {
-                    current.comment = node.textContent.trim()
-                        .replace(/^AI 锐评[：:]\s*/i, '')
-                        .replace(/^\*{0,2}AI 锐评\*{0,2}[：:]*\s*/i, '');
-                }
-            } else if (tag === 'UL') {
-                if (current) {
-                    node.querySelectorAll(':scope > li').forEach(li => {
-                        const html = li.innerHTML;
-                        const m = html.match(/^<strong>(.*?)<\/strong>\s*(.*)/s);
-                        if (m) {
-                            current.items.push({ title: m[1], summary: m[2].replace(/^[-—]\s*/, '').trim() });
-                        } else {
-                            current.items.push({ title: html.replace(/<[^>]+>/g, '').replace(/^[-—]\s*/, ''), summary: '' });
-                        }
-                    });
-                }
-            } else if (tag === 'H3' && current) {
-                // Sub-headline inside a section, treat as a news item
-                const next = node.nextElementSibling;
-                let summary = '';
-                if (next && next.tagName === 'UL') {
-                    const lis = next.querySelectorAll(':scope > li');
-                    summary = Array.from(lis).map(li => li.textContent.trim().replace(/^[-—]\s*/, '')).join('；');
-                }
-                current.items.push({ title: node.textContent.trim(), summary });
-            } else if (tag === 'P' && current) {
-                const text = node.textContent.trim();
-                if (text && !text.startsWith('📡') && !text.startsWith('采集') && !text.startsWith('>') && current.items.length > 0) {
-                    const last = current.items[current.items.length - 1];
-                    if (last.summary) last.summary += ' ' + text;
-                    else last.summary = text;
-                }
-            } else if (node.children.length > 0 && tag !== 'HR') {
-                walk(node.childNodes);
-            }
-        }
-    }
-
-    walk(raw.childNodes);
-    if (current) sections.push(current);
-
-    const icons = {
-        '头条': '🔥', '科技': '🔬', '财经': '📊', '国际': '🌍',
-        '政策': '📋', '社会': '🏙️', '时尚': '👗', '娱乐': '🎬',
-        '体育': '⚽', '汽车': '🏎️', '房产': '🏠'
-    };
-    const tagColors = {
-        '头条': '#ff3b30', '科技': '#5856d6', '财经': '#ff9500', '国际': '#ff3b30',
-        '政策': '#af52de', '社会': '#30b0c7', '时尚': '#ff2d55', '娱乐': '#ff6b35',
-        '体育': '#34c759', '汽车': '#007aff', '房产': '#5ac8fa'
-    };
-
-    function getIcon(t) { for (const [k,v] of Object.entries(icons)) if (t.includes(k)) return v; return '📌'; }
-    function getColor(t) { for (const [k,v] of Object.entries(tagColors)) if (t.includes(k)) return v; return '#86868b'; }
-    function getCat(t) { for (const k of Object.keys(icons)) if (t.includes(k)) return k; return ''; }
-
-    let html = '';
-    sections.forEach(section => {
-        const icon = getIcon(section.title);
-        const color = getColor(section.title);
-        const cat = getCat(section.title);
-        const isHeadline = section.title.includes('头条');
-
-        html += `<div class="cat-card" style="--cat-color:${color}">
-            <div class="cat-header">
-                <span class="cat-icon">${icon}</span>
-                <span class="cat-title">${section.title}</span>
-                <span class="cat-count">${section.items.length}</span>
-            </div>
-            <div class="cat-body">
-                ${section.items.map((item, i) => `
-                    <div class="news-row">
-                        <div class="news-title">${i === 0 && isHeadline ? '<span class="badge">热点</span>' : ''}${item.title}</div>
-                        ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
-                    </div>
-                `).join('')}
-            </div>
-            ${section.comment ? `
-            <div class="cat-comment">
-                <div class="comment-label">🤖 AI 锐评</div>
-                <div class="comment-text">${section.comment}</div>
-            </div>` : ''}
-        </div>`;
-    });
-
-    grid.innerHTML = html;
-})();
-</script>
