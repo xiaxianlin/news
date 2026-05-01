@@ -2,31 +2,24 @@
 layout: default
 ---
 
-<div class="home-nav">
-    <a href="{{ '/' | relative_url }}" class="back-link">← 返回首页</a>
-    <span class="post-date">{{ page.date | date: "%Y年%m月%d日" }}</span>
+<div class="post-nav">
+    <a href="{{ '/' | relative_url }}" class="back-link">← 首页</a>
+    <span class="post-date-label">{{ page.date | date: "%Y年%m月%d日" }}</span>
 </div>
 
-<h2 class="post-title">{{ page.title }}</h2>
-
-{% if page.stats %}
-<div class="stats">
-    <div class="stat-card"><div class="num">{{ page.stats.total }}</div><div class="label">总采集量</div></div>
-    {% for cat in page.stats.categories %}
-    <div class="stat-card"><div class="num">{{ cat.count }}</div><div class="label">{{ cat.name }}</div></div>
-    {% endfor %}
+<div class="post-header">
+    <h2>{{ page.title }}</h2>
 </div>
-{% endif %}
 
 <article class="post-content">
     {{ content }}
 </article>
 
-<div class="post-nav">
-    {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="nav-btn">← {{ page.previous.date | date: "%m-%d" }}</a>
-    {% endif %}
+<div class="bottom-nav">
     {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="nav-btn nav-btn-right">{{ page.next.date | date: "%m-%d" }} →</a>
+    <a href="{{ page.next.url | relative_url }}" class="nav-btn">← {{ page.next.date | date: "%m-%d" }}</a>
+    {% endif %}
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="nav-btn nav-btn-right">{{ page.previous.date | date: "%m-%d" }} →</a>
     {% endif %}
 </div>
