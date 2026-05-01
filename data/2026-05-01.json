@@ -1,0 +1,863 @@
+[
+  {
+    "category": "科技",
+    "title": "OpenAI调整星际之门计划，缩减自建算力规模转向租赁",
+    "summary": "据金融时报报道，OpenAI正调整星际之门AI基础设施建设计划，更大程度上通过租赁满足算力需求，缩减自建容量规模",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRQ6LH18051196HN.html"
+  },
+  {
+    "category": "科技",
+    "title": "小米自研芯片新进展，鸿蒙6.1扩容",
+    "summary": "小米自研芯片取得新进展；鸿蒙6.1正式版扩容；美暂停向华虹半导体供货；DeepSeek终于支持图片理解",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1oh9xBvEzv/"
+  },
+  {
+    "category": "科技",
+    "title": "中国首个脑机接口本科专业在天津大学设立",
+    "summary": "天津大学设立中国首个脑机接口本科专业，脑机接口技术加速走向现实应用",
+    "source": "科研通",
+    "url": "https://www.ablesci.com/tophot"
+  },
+  {
+    "category": "科技",
+    "title": "TrendForce：AI竞赛引发半导体供应链产能吃紧",
+    "summary": "AI需求急速成长导致3nm至2nm晶圆、CoWoS封装陷入产能瓶颈，相关设备与原材料告急",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/t/2026-04-30/doc-inhwhenc0365467.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "联电22纳米领军动能续旺，首季EPS创近10季新高",
+    "summary": "联电首季每股税后纯益1.29元创近10季新高，22奈米逻辑与特殊制程仍为主要成长引擎",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwfyep1326009.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "我国脑机接口加速接入现实，微博热搜关注度近100万",
+    "summary": "脑机接口话题登上微博热搜，热度近百万，公众关注度持续走高",
+    "source": "考拉新媒体",
+    "url": "https://www.kaolamedia.com/hot"
+  },
+  {
+    "category": "科技",
+    "title": "科创牛在路上，半导体AI算力赛道产业逻辑扎实",
+    "summary": "政策持续扶持硬科技领域，半导体、AI算力等赛道资金持续抱团，推动科创板结构性牛市",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwhenh6212430.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "2026国产AI芯片跨越天堑：从推理走向训练",
+    "summary": "国产芯片在训练场景落地加速，政策驱动与技术迭代共同作用，2026年或成国产超节点放量元年",
+    "source": "36氪",
+    "url": "https://www.36kr.com/p/3696839539338881"
+  },
+  {
+    "category": "科技",
+    "title": "苹果FY2026Q2研发支出114亿美元创新高，同比增34%加码AI",
+    "summary": "苹果CEO交接后首份财报，研发支出创历史新高，多家机构给出看涨预期",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/t/2026-05-01/doc-inhwkccp6828747.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "微软预计2026年资本支出达1900亿美元押注AI",
+    "summary": "微软大幅增加资本支出押注AI基础设施建设",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KROQ7KG50519DDQ2.html"
+  },
+  {
+    "category": "科技",
+    "title": "科创50大涨超5%，寒武纪涨停重夺股王宝座",
+    "summary": "国产芯片量产带动科创板块大涨，头部互联网厂商有望规模应用国产AI芯片",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/tob/2026-04-30/doc-inhwhene7166470.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "英伟达市值失守5万亿美元，亚马逊自研AI芯片年营收破200亿",
+    "summary": "亚马逊交付超210万颗AI芯片，过半为自研Trainium；英伟达市值回落，Anthropic获5吉瓦Trainium算力",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRR4RED50519DDQ2.html"
+  },
+  {
+    "category": "科技",
+    "title": "GPT-5.6曝光，GPT-5.5疯狂迷恋哥布林被OpenAI连夜封禁",
+    "summary": "GPT-5.5跑分创纪录后出现怪癖，OpenAI发布博客揭秘技术原因；GPT-5.6已开始偷跑",
+    "source": "新智元/新浪",
+    "url": "https://finance.sina.com.cn/wm/2026-04-30/doc-inhwhkum4230702.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "英伟达重回5万亿美元市值，DeepSeek V4发布反促英伟达大涨",
+    "summary": "DeepSeek时隔16个月发布V4大模型，英伟达反而收涨创历史新高，市值达5.26万亿美元",
+    "source": "投资界",
+    "url": "https://news.pedaily.cn/202604/563401.shtml"
+  },
+  {
+    "category": "科技",
+    "title": "小米全新SUV军团曝光：YU9连曝三个版本，YU7 GT 5月底发",
+    "summary": "小米新SUV全家福曝光，雷军加入中大型SUV混战，YU7 GT预计5月底发布",
+    "source": "36氪",
+    "url": "https://36kr.com/information/web_news/"
+  },
+  {
+    "category": "科技",
+    "title": "5月1日起北京实施最严格无人机管理规定",
+    "summary": "北京5月1日起全面限制无人机飞行、销售及运输，被称为史上最严",
+    "source": "大纪元",
+    "url": "https://www.epochtimes.com/gb/26/4/30/n14753798.htm"
+  },
+  {
+    "category": "科技",
+    "title": "韩国4月出口飙升48% AI芯片需求激增",
+    "summary": "韩国4月出口额858.9亿美元创历史次高，同比增长48%，连续两个月突破800亿美元，半导体及固态硬盘需求激增是主力。",
+    "source": "证券时报",
+    "url": "https://www.stcn.com/article/detail/3893361.html"
+  },
+  {
+    "category": "科技",
+    "title": "华为算力产业链加速：强一股份Q1净利增697%",
+    "summary": "华为哈勃投资的强一股份一季度归母净利润1.12亿元，同比增长697.6%，AI算力需求爆发叠加行业景气周期。",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRS5JJVQ05199DKK.html"
+  },
+  {
+    "category": "科技",
+    "title": "宇树科技发布最便宜人形机器人",
+    "summary": "宇树科技推出旗下最便宜的人形机器人产品，进一步降低人形机器人门槛。",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRR50LB105118O8G.html"
+  },
+  {
+    "category": "财经",
+    "title": "美联储连续第三次维持利率不变，决议现34年来最大分歧",
+    "summary": "鲍威尔宣布任期结束后将继续留任美联储理事，财长贝森特谴责此举",
+    "source": "第一财经",
+    "url": "https://www.yicai.com/"
+  },
+  {
+    "category": "财经",
+    "title": "比亚迪Q1财报：汇率冲击利润承压",
+    "summary": "王传福名下两家市值合计近万亿的企业迎来业绩挑战",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/s/2026-04-30/doc-inhwhvkc7297968.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "18家上市车企一季报：利润承压，商用车优于乘用车",
+    "summary": "A/H股主流上市车企Q1业绩基本披露完毕，不足五成企业实现双增长",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwhviy6180733.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "中文在线AI驱动内容生产，漫剧产量同比增300%",
+    "summary": "中文在线接受87家机构调研，AI驱动内容生产革新",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/aigc/jgdy/2026-04-30/doc-inhwhraa6168218.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "呷哺呷哺营收跌回八年前，财务杠杆率飙至92%",
+    "summary": "呷哺呷哺经营困境加剧，新副牌面临市场考验",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/observe/2026-04-30/doc-inhwhkue6257915.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "2026年一季度中国GDP同比增长5.0%，十五五开局良好",
+    "summary": "国家统计局解读一季度经济数据：生产供给较快增长，国内需求总体改善，市场价格温和回升",
+    "source": "求是网",
+    "url": "https://www.qstheory.cn/20260430/1dcd3514caa04a9f99d46f903ad88b34/c.html"
+  },
+  {
+    "category": "财经",
+    "title": "苹果Q2研发支出114亿美元创新高",
+    "summary": "苹果CEO交接后首份财报研发支出同比增34%，华尔街给出看涨预期",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/digi/2026-05-01/doc-inhwkcck5675726.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "A股硬科技点亮钱景，业绩分化加剧",
+    "summary": "2025年报显示硬科技板块表现亮眼，A股业绩韧性彰显但分化加剧",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-05-01/doc-inhwkcck5669011.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "2026小微经营者报告：AI渗透率突破25%，数字化推高女性创业率",
+    "summary": "小微经营者AI使用率大幅提升，女性创业率被数字化推高",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/jjxw/2026-04-30/doc-inhwhkui7416637.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "法国一季度经济意外停滞，政府不修改增长预测",
+    "summary": "法国Q1经济未增长，部分因伊朗战争影响及临时因素，政府维持0.9%增长预测",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/headline/2026-05-01/doc-inhwiwvn5704939.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "地方隐性债务倒计时：2018到2028清零大切换",
+    "summary": "2018年隐性债务首次被官方界定，2028年目标清零，普通人面临经济模式大切换",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1179DBHEWQ/"
+  },
+  {
+    "category": "财经",
+    "title": "现货黄金突破4630美元 纽约期银突破75美元",
+    "summary": "国际贵金属市场强势上涨，现货黄金突破4630美元/盎司，纽约期银突破75美元/盎司日内涨1.80%。",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/headline/2026-05-01/doc-inhwiwvr0816547.shtml"
+  },
+  {
+    "category": "财经",
+    "title": "居民储蓄迎3大调整：50-75万亿定期存款即将到期",
+    "summary": "2022-2024年高息期存入的定期存款陆续到期，储户续存利息直接减半。四大行五年期利率仅1.30%。",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRP1AMM80556IHQX.html"
+  },
+  {
+    "category": "财经",
+    "title": "A股上市公司2025年经营业绩：净利润同比增长7.5%",
+    "summary": "全市场上市公司2026年Q1实现营收17.72万亿，净利润1.60万亿，同比增长5.1%和7.5%，业绩向好态势巩固。",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/roll/2026-05-01/doc-inhwkccp6816330.shtml"
+  },
+  {
+    "category": "国际",
+    "title": "美国对伊朗封锁升级：从单边转向多国联合围堵",
+    "summary": "川普政府推出海上自由联盟新框架，对伊朗封锁策略全面升级",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378248.html"
+  },
+  {
+    "category": "国际",
+    "title": "伦敦突发恐袭，内阁紧急启动COBRA",
+    "summary": "伦敦街头两名犹太裔人士遭袭后，英国内阁紧急启动COBRA",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378289.html"
+  },
+  {
+    "category": "国际",
+    "title": "全球新闻自由跌至25年最低点",
+    "summary": "无国界记者组织警告全球新闻自由跌至25年来最低水平",
+    "source": "星洲日报",
+    "url": "https://www.sinchew.com.my/news/20260430/international/7466364"
+  },
+  {
+    "category": "国际",
+    "title": "意大利退役航母无偿捐赠印尼，印尼首次跨入航母国",
+    "summary": "意大利议会批准将退役航母加里波底号无偿捐赠给印尼",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378287.html"
+  },
+  {
+    "category": "国际",
+    "title": "以色列与黎巴嫩停火协议面临恶化压力",
+    "summary": "美国斡旋下的以黎停火协议压力增大，川普天天与内塔尼亚胡通话",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378288.html"
+  },
+  {
+    "category": "国际",
+    "title": "外交部回应日本修改自卫队官阶名称",
+    "summary": "日本计划恢复二战前的大将、大佐等称谓，中方对此作出回应",
+    "source": "中国外交部",
+    "url": "https://www.mfa.gov.cn/fyrbt_673021/202604/t20260430_11903286.shtml"
+  },
+  {
+    "category": "国际",
+    "title": "攻伊倒计时48小时，川普拍板生死选项",
+    "summary": "美国战争权力法60天期限5月1日到期，全球市场高度关注白宫决策信号",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378273.html"
+  },
+  {
+    "category": "国际",
+    "title": "中国任命张柱为农业农村部部长，两年内第二次换人",
+    "summary": "张柱接替韩俊出任农长，韩俊前任唐仁健因受贿被判死缓",
+    "source": "星洲日报",
+    "url": "https://www.sinchew.com.my/news/20260430/international/7466177"
+  },
+  {
+    "category": "国际",
+    "title": "泽连斯基怒斥以色列并召见大使",
+    "summary": "乌克兰指责以色列购买俄罗斯窃取的克里米亚粮食",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378168.html"
+  },
+  {
+    "category": "国际",
+    "title": "阿联酋5月1日正式退出欧佩克，全球能源版图重构",
+    "summary": "阿联酋宣布退出欧佩克及欧佩克+，称基于国家利益全面评估后决定",
+    "source": "卫星通讯社",
+    "url": "https://sputniknews.cn/20260501/1071052951.html"
+  },
+  {
+    "category": "国际",
+    "title": "美国暗鹰高超音速导弹或首次实战部署中东",
+    "summary": "美军中央司令部申请将暗鹰高超音速导弹部署中东，或将用于打击伊朗弹道导弹发射装置",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378238.html"
+  },
+  {
+    "category": "国际",
+    "title": "美军方向川普汇报迅速强力打击伊朗方案",
+    "summary": "美伊和谈难达协议，中央司令部准备对伊朗基础设施发动迅速强力打击方案",
+    "source": "阿波罗网",
+    "url": "https://www.aboluowang.com/2026/0430/2378237.html"
+  },
+  {
+    "category": "国际",
+    "title": "美军攻伊60天期限到期 国会授权成焦点",
+    "summary": "根据美国《战争权力法》，特朗普对伊朗军事行动的60天法律期限5月1日到期。国防部长称停火期间期限已\"暂停\"。",
+    "source": "阿波罗新闻网/VOA",
+    "url": "https://www.aboluowang.com/2026/0501/2378714.html"
+  },
+  {
+    "category": "国际",
+    "title": "伊朗内部罕见公开分裂：两大国营媒体互撕",
+    "summary": "伊朗拉贾新闻社与塔斯尼姆通讯社公开互相指责对方\"破坏国家团结\"，政治分裂从权力核心外溢至宣传体系。",
+    "source": "禁闻网",
+    "url": "https://www.bannedbook.org/bnews/worldnews/20260501/2312863.html"
+  },
+  {
+    "category": "国际",
+    "title": "美军参联会主席凯恩证实俄罗斯在美伊战争期间帮助伊朗",
+    "summary": "凯恩在参议院军事委员会听证会上表示，俄罗斯已经为伊朗的作战行动提供了帮助。",
+    "source": "大纪元",
+    "url": "https://www.epochtimes.com/gb/26/4/30/n14753893.htm"
+  },
+  {
+    "category": "政策",
+    "title": "政治局会议提出六网建设，算力网电网成市场焦点",
+    "summary": "政治局会议提出全面实施人工智能+行动，六网建设中算力网受益链条最清晰",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRP3Q8PN0539AECO.html"
+  },
+  {
+    "category": "政策",
+    "title": "日本正式允许出口杀伤性武器",
+    "summary": "日本内阁会议正式修改防卫装备转移三原则，原则上允许出口杀伤性武器",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1bnd2BDEpa/"
+  },
+  {
+    "category": "政策",
+    "title": "香港特区将制定首个五年规划",
+    "summary": "特首李家超宣布将制定首个五年规划，是十五五规划开局之年重磅消息",
+    "source": "今日中国",
+    "url": "http://japanese.beijingreview.com.cn/zw2018/bktg/202604/t20260430_800436539.html"
+  },
+  {
+    "category": "政策",
+    "title": "王毅同比利时副首相普雷沃会谈",
+    "summary": "比方坚持一个中国政策，愿同中方加强沟通对话深化合作",
+    "source": "中国外交部",
+    "url": "https://www.mfa.gov.cn/wjbzhd/202604/t20260430_11903172.shtml"
+  },
+  {
+    "category": "政策",
+    "title": "北京周五起全市禁售无人机，被称为史上最严",
+    "summary": "北京宣布全市禁售无人机，被形容为史上最严格的无人机管控措施",
+    "source": "YouTube",
+    "url": "https://www.youtube.com/watch?v=muEf2iOpdtk"
+  },
+  {
+    "category": "政策",
+    "title": "广电总局：改善公共场所和农村地区看电视体验",
+    "summary": "推广插入式微型机顶盒、一体化电视等新型便捷终端",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/digi/2026-04-30/doc-inhwfyek6252541.shtml"
+  },
+  {
+    "category": "政策",
+    "title": "5月起多项新规实施：长三角政务服务一网通办同步施行",
+    "summary": "沪苏浙皖四地同步施行全国首部政务服务区域协同立法，聚焦企业准入、教育就业等领域",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwftwn6316326.shtml"
+  },
+  {
+    "category": "政策",
+    "title": "阿联酋正式退群欧佩克，敲响中东新秩序开场钟声",
+    "summary": "阿联酋5月1日起退出欧佩克及欧佩克+，搭配15亿欧元军购协定",
+    "source": "澎湃新闻",
+    "url": "https://www.wenxuecity.com/news/2026/04/30/126635404.html"
+  },
+  {
+    "category": "政策",
+    "title": "美众院压倒性通过农业法案修正案，粮券可买Costco烤鸡",
+    "summary": "美国众议院以384票对35票通过扩展修正案",
+    "source": "大纪元",
+    "url": "https://www.epochtimes.com/gb/26/4/30/n14753840.htm"
+  },
+  {
+    "category": "政策",
+    "title": "五一文旅消费周启动：1.37万场活动，发放超2.84亿元消费券",
+    "summary": "文化和旅游部启动全国五一文旅消费周，各地推出踏青、亲子、研学等产品",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/stock/y/2026-04-30/doc-inhwfpqq6355618.shtml"
+  },
+  {
+    "category": "政策",
+    "title": "5月1日起1071项国家标准实施，涉教育机器人、物联网等",
+    "summary": "国家标准委：1071项国标5月1日起实施，涵盖移动通信、燃气设备、教育机器人、孤独症康复等",
+    "source": "央视网",
+    "url": "https://news.cctv.com/2026/04/30/ARTIP0nhO3cHgmQ4tlPzugse260430.shtml"
+  },
+  {
+    "category": "政策",
+    "title": "5月1日起多项新规施行：无人机登记、经营主体文书规范等",
+    "summary": "存量无人机须在2027年6月1日前完成补登记与激活，逾期将被限制飞行；市场监管总局发布新版经营主体登记文书规范。",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/wm/2026-04-30/doc-inhwhvkc1248905.shtml"
+  },
+  {
+    "category": "政策",
+    "title": "2026年\"更加积极的财政政策\"：公共预算支出首次突破30万亿",
+    "summary": "全国一般公共预算支出首次突破30万亿元，新增政府债务规模也创新高，财政政策定位为\"更加积极\"。",
+    "source": "大纪元",
+    "url": "https://www.epochtimes.com/gb/26/4/30/n14753900.htm"
+  },
+  {
+    "category": "社会",
+    "title": "无偿献血证被中介倒卖至2000元",
+    "summary": "央视曝光献血证被中介倒卖产业链，已抓获数名嫌疑人",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1RCdkBEEBv/"
+  },
+  {
+    "category": "社会",
+    "title": "政治局集体学习：提高防范应对自然灾害能力",
+    "summary": "习近平强调统筹高质量发展和高水平安全",
+    "source": "新浪新闻",
+    "url": "https://news.sina.com.cn/gov/xlxw/2026-04-30/doc-inhwfyep1413388.shtml"
+  },
+  {
+    "category": "社会",
+    "title": "央视曝光网红拼豆存在安全隐患",
+    "summary": "央视报道网红食品拼豆存在安全隐患",
+    "source": "杭州网",
+    "url": "https://www.hangzhou.com.cn/?pc"
+  },
+  {
+    "category": "社会",
+    "title": "央地合力部署五一消费周，1.37万场活动+2.84亿消费券",
+    "summary": "全国各地推出文旅消费活动，上海五五购物节票根经济模式升级",
+    "source": "新华网",
+    "url": "https://www.news.cn/fortune/20260430/4605db59a8a8465a982b1919e1685a35/c.html"
+  },
+  {
+    "category": "社会",
+    "title": "哈啰顺风车预测五一出行需求突破6000万单",
+    "summary": "首推特惠独享和高档车服务，异地打车需求预计较节前上涨56%",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/2026-04-30/doc-inhwftwk7175322.shtml"
+  },
+  {
+    "category": "社会",
+    "title": "日本广岛县发生乙醇爆炸",
+    "summary": "4月29日日本广岛县发生乙醇爆炸事故",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1Xs9QBvEf5/"
+  },
+  {
+    "category": "社会",
+    "title": "五一假期全社会跨区域人员流动量预计达15.2亿人次",
+    "summary": "交通运输部预测五一假期人员流动量创新高，以近郊休闲、中短途旅游为主",
+    "source": "华龙网",
+    "url": "https://www.cqnews.net/web/content_1499674694976352256.html"
+  },
+  {
+    "category": "社会",
+    "title": "五一铁路出行高峰：预计发送1995万人次，加开1880列",
+    "summary": "全国铁路五一节前迎出行高峰，多地主要交通枢纽达拥堵级别",
+    "source": "人民网",
+    "url": "http://society.people.com.cn/n1/2026/0430/c1008-40712128.html"
+  },
+  {
+    "category": "社会",
+    "title": "五一假期哪天最挤？大数据预测5月2-3日景区人流量暴增",
+    "summary": "AI大模型筛选人少景美小众目的地：广西崇左、云南德宏、贵州铜仁",
+    "source": "中华网",
+    "url": "https://news.china.com/socialgd/10000169/20260501/49466193.html"
+  },
+  {
+    "category": "社会",
+    "title": "五一假期首日全国各大景区客流攀升 北京警方启动旅游安保",
+    "summary": "五一假期首日北京各大景区、商圈、交通枢纽客流稳步攀升，警方围绕高峰时段科学设置执勤点位。",
+    "source": "新浪新闻",
+    "url": "https://news.sina.com.cn/s/2026-05-01/doc-inhwktza5484522.shtml"
+  },
+  {
+    "category": "社会",
+    "title": "五一机票\"彻底爆了\" 多条航线一票难求",
+    "summary": "五一假期出行高峰来临，多条热门航线机票售罄，部分航班票价飙升。",
+    "source": "B站/新浪",
+    "url": "https://www.bilibili.com/video/BV1n898BXEJc/"
+  },
+  {
+    "category": "时尚",
+    "title": "香奈儿推出9万元无底鞋引热议",
+    "summary": "口碑两极分化，时尚爱好者追捧高级简约，更多网友直言看不懂",
+    "source": "虎嗅",
+    "url": "https://www.huxiu.com/article/4855191.html"
+  },
+  {
+    "category": "时尚",
+    "title": "谷歌相册推出AI衣橱规划功能",
+    "summary": "谷歌相册利用AI自动提取照片中的服装图像，整理到数字衣橱",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KROH65KA0511B8LM.html"
+  },
+  {
+    "category": "时尚",
+    "title": "新华社调查AB货猖獗现象",
+    "summary": "电商AB货相关投诉量高居投诉前列",
+    "source": "新华网",
+    "url": "https://www.news.cn/fashion/20260430/6afef1f0f94340ce9daa156bd7301580/c.html"
+  },
+  {
+    "category": "时尚",
+    "title": "比音勒芬品牌困境：中年油腻标签难摘",
+    "summary": "比音勒芬被调侃为中年油腻代表品牌",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwftwr1426811.shtml"
+  },
+  {
+    "category": "时尚",
+    "title": "优衣库2026年春夏三大系列深度测评",
+    "summary": "U系列/C系列/法国麻系列测评，谁最值得买引发讨论",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1JDosByEie/"
+  },
+  {
+    "category": "时尚",
+    "title": "九号公司2026新品发布：易烊千玺代言呈现出行新风尚",
+    "summary": "九号公司发布多款Q系列新品，邀请易烊千玺代言",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwfyep1397438.shtml"
+  },
+  {
+    "category": "时尚",
+    "title": "五一档十余部新片预售近亿，穿普拉达的女王2断层领先",
+    "summary": "梅姨和海瑟薇来华宣传造势，猫眼想看人数超17万， Lady Gaga客串",
+    "source": "第一财经",
+    "url": "https://www.yicai.com/news/103162915.html"
+  },
+  {
+    "category": "时尚",
+    "title": "功能性服饰领跑五一假日经济：从\"防晒标配\"到\"情绪刚需\"",
+    "summary": "消费者出行目的更明确，买衣服逻辑从取悦他人转向自我疗愈，老钱风、亚麻材质成最受追捧热点。",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-05-01/doc-inhwkimm0710769.shtml"
+  },
+  {
+    "category": "时尚",
+    "title": "欧莱雅一季度增长6.7% 中国区再现重大人事变动",
+    "summary": "欧莱雅全球一季度营收增长6.7%，中国区高层人事再调整。",
+    "source": "36氪",
+    "url": "https://36kr.com/p/3786192457063685"
+  },
+  {
+    "category": "时尚",
+    "title": "《穿普拉达的女王2》上映 时尚女魔头续作探讨职场权力洗牌",
+    "summary": "时隔20年回归的经典续作，原班卡司回归，将故事置于传统媒体衰退与新媒体崛起的背景下。",
+    "source": "虎嗅",
+    "url": "https://www.huxiu.com/article/4855299.html"
+  },
+  {
+    "category": "娱乐",
+    "title": "俞浩大战小红书登上热搜",
+    "summary": "俞浩和追觅多次冲上热搜，小红书以沉默应对",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRP6J53605118O92.html"
+  },
+  {
+    "category": "娱乐",
+    "title": "AI爆款视频6大观察",
+    "summary": "研究扒了上百条AI爆款视频，AI生成内容在社交媒体愈发普遍",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/jjxw/2026-04-30/doc-inhwhraa6176403.shtml"
+  },
+  {
+    "category": "娱乐",
+    "title": "新穷鬼三件套上热搜，年轻人消费觉醒",
+    "summary": "新穷鬼三件套话题反映年轻消费观念转变",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1iZd8BnEhb/"
+  },
+  {
+    "category": "娱乐",
+    "title": "足球史上最大数据泄露事件：涉及C罗所在俱乐部超15万会员数据外流",
+    "summary": "某知名足球俱乐部超15万会员敏感数据外泄",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/digi/2026-04-30/doc-inhwftwn6345207.shtml"
+  },
+  {
+    "category": "娱乐",
+    "title": "穿普拉达的女王2五一上映，梅姨海瑟薇原班人马回归",
+    "summary": "时隔20年经典续作，刘玉玲、Lady Gaga客串，探讨职场女性自我价值",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRR4OR5B05564B6E.html"
+  },
+  {
+    "category": "娱乐",
+    "title": "《寒战1994》领跑五一档 陈思诚新片口碑两极",
+    "summary": "《寒战1994》预测票房最高成为首日冠军，整体口碑平庸，没有大爆也没有大规模翻车。",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRRM0PCN05179RJN.html"
+  },
+  {
+    "category": "娱乐",
+    "title": "多部电影撤出五一档：《三心两意》《森中有林》改期",
+    "summary": "《三心两意》4月30日下午突然宣布撤档，点映票房仅78-95万元。《森中有林》4月22日已撤档改5月23日。",
+    "source": "大纪元/央视",
+    "url": "https://news.cctv.com/2026/04/30/ARTIFfiFbKeIM3gPoFwg0Uex260430.shtml"
+  },
+  {
+    "category": "体育",
+    "title": "国羽主席张军涉嫌严重违纪违法被查",
+    "summary": "中国羽协主席张军接受审查调查，从奥运双金到国羽掌门落马",
+    "source": "中华网",
+    "url": "https://news.china.com/socialgd/10000169/20260430/49463228.html"
+  },
+  {
+    "category": "体育",
+    "title": "美加墨世界杯带动体育概念股，中体产业涨停",
+    "summary": "世界杯6月11日开幕，义乌体育用品出口同比增长38.5%",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwhene7144575.shtml"
+  },
+  {
+    "category": "体育",
+    "title": "塔吉克斯坦格斗选手夺冠后身披中国国旗",
+    "summary": "乌马罗夫在JCK夺冠后披中国国旗，动情表白中国如家",
+    "source": "新浪新闻",
+    "url": "https://k.sina.com.cn/article_7857201851_v1d45362bb06801cqcw.html"
+  },
+  {
+    "category": "体育",
+    "title": "PPA亚洲职业匹克球巡回赛澳门站近600人报名",
+    "summary": "2026年PPA澳门公开赛报名火热，近600名选手参赛",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwfyep1411346.shtml"
+  },
+  {
+    "category": "体育",
+    "title": "22岁吴宜泽斯诺克世锦赛半决赛6-2领先艾伦",
+    "summary": "中国新星吴宜泽世锦赛半决赛第一阶段连赢4局，6-2领先马克·艾伦，夺冠赔率断层领跑",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRQSDCQ90529CA1F.html"
+  },
+  {
+    "category": "体育",
+    "title": "2026汤尤杯：中国vs马来西亚8进4，石宇奇回归一单",
+    "summary": "汤杯淘汰赛中国队对阵马来西亚，石宇奇回归一单位置",
+    "source": "新浪新闻",
+    "url": "https://www.sina.cn/news/detail/5293639932838043.html"
+  },
+  {
+    "category": "体育",
+    "title": "巴萨最快本周日提前夺西甲冠军，5月10日国家德比后颁奖",
+    "summary": "西足协计划在诺坎普为巴萨颁发联赛冠军奖杯",
+    "source": "新浪体育",
+    "url": "https://sports.sina.cn/2026-04-29/detail-inhwczph6802343.d.html"
+  },
+  {
+    "category": "体育",
+    "title": "美加墨世界杯48支参赛球队全部产生，分组出炉",
+    "summary": "2026年世界杯分组结果公布：墨西哥、南非、韩国、捷克同组",
+    "source": "荆楚网",
+    "url": "http://news.cnhubei.com/"
+  },
+  {
+    "category": "体育",
+    "title": "斯诺克世锦赛四强出炉：赵心童止步八强，吴宜泽成独苗",
+    "summary": "卫冕冠军赵心童10-13不敌墨菲，22岁吴宜泽13-8胜瓦菲成为四强唯一中国选手",
+    "source": "新浪体育",
+    "url": "https://sports.sina.cn/2026-04-30/detail-inhwfpqn7224255.d.html"
+  },
+  {
+    "category": "体育",
+    "title": "汤杯韩国爆冷出局，台湾逆转丹麦晋级",
+    "summary": "2026汤姆斯杯小组赛韩国因净胜场劣势遗憾出局",
+    "source": "亚洲电视",
+    "url": "https://atvnewsonline.com/"
+  },
+  {
+    "category": "体育",
+    "title": "2026汤尤杯在丹麦进行 中国羽毛球队名单公布",
+    "summary": "2026年汤姆斯杯和尤伯杯4月24日至5月3日在丹麦霍森斯举行，中国国家羽毛球队运动员名单已公示。",
+    "source": "新浪",
+    "url": "https://www.sina.cn/news/detail/5293286931824824.html"
+  },
+  {
+    "category": "体育",
+    "title": "湖人附属球队搬迁至科切拉谷 更名科切拉谷湖人",
+    "summary": "湖人宣布其G联盟附属球队南湾湖人将搬迁至加州棕榈泉地区，更名为科切拉谷湖人队，2026-27赛季起使用新主场。",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRR8QQM20549BAP0.html"
+  },
+  {
+    "category": "汽车",
+    "title": "2026北京车展：中国占世界汽车份额32%",
+    "summary": "北京车展规模跃居全球首位，奇瑞累计出口600万辆，比亚迪出口目标150万辆",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KROHQCSJ0511B8LM.html"
+  },
+  {
+    "category": "汽车",
+    "title": "2026年自动驾驶普及元年：华为智驾里程破100亿公里",
+    "summary": "业内共识2026年为自动驾驶普及元年，华为预计再投入180亿元研发",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/roll/2026-04-30/doc-inhwftwe7437577.shtml"
+  },
+  {
+    "category": "汽车",
+    "title": "奇瑞连签高通英伟达等四巨头，科技突围",
+    "summary": "奇瑞高频牵手科技巨头，补齐AI和智驾短板",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRPR1OLV0519DTSV.html"
+  },
+  {
+    "category": "汽车",
+    "title": "车展AI总动员：供应链企业走向台前",
+    "summary": "地平线、宁德时代、华为等供应链企业与整车企业同台展示",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/wm/2026-04-30/doc-inhwhraf1292196.shtml"
+  },
+  {
+    "category": "汽车",
+    "title": "鸿蒙智行累计交付突破135万辆",
+    "summary": "华为赋能新能源汽车快速普及，哪吒汽车创始人被列入失信名单",
+    "source": "新浪财经",
+    "url": "https://finance.sina.com.cn/consume/xiaofei/2026-04-30/doc-inhwftwe7507388.shtml"
+  },
+  {
+    "category": "汽车",
+    "title": "欣旺达口碑崩塌却被特斯拉看上",
+    "summary": "特斯拉选择欣旺达作为电池供应商引发行业讨论",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1VEosBiEig/"
+  },
+  {
+    "category": "汽车",
+    "title": "北京车展小米概念车VGT居然能开，鸿蒙智行五界聚齐",
+    "summary": "小米Vision GT概念车动态展示引爆话题，鸿蒙智行五大品牌聚齐北京车展",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV11Co6BeESN/"
+  },
+  {
+    "category": "汽车",
+    "title": "长安启源Q07天枢激光版5月7日起涨价3000元",
+    "summary": "北京车展后首波涨价，长安启源Q07三款配置同步调整",
+    "source": "中关村在线",
+    "url": "https://auto.zol.com.cn/1173/11732811.html"
+  },
+  {
+    "category": "汽车",
+    "title": "2026北京车展：问界携全系高端SUV亮相 46个月百万辆下线",
+    "summary": "问界在北京车展展出魔方技术平台和五大高端SUV系列，已完成M5到M9的全系布局，46个月达成百万辆下线。",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-04-30/doc-inhwftwn6269086.shtml"
+  },
+  {
+    "category": "汽车",
+    "title": "2026北京车展：纵横六款新车全球首秀 覆盖豪华越野全领域",
+    "summary": "纵横品牌带来三款在售车型与六款全球首秀新车，覆盖豪华越野全领域，为品牌成立以来最大规模产品集中亮相。",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-05-01/doc-inhwkimh5596074.shtml"
+  },
+  {
+    "category": "汽车",
+    "title": "AI时代汽车：近30家车企在阿里云开展智驾研发 PPU突破10万卡",
+    "summary": "已有近30家车企和智驾方案商在阿里云上进行智驾研发，平头哥自研PPU突破10万卡，创汽车行业公共云平台使用自研AI芯片最大规模纪录。",
+    "source": "新浪科技",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-05-01/doc-inhwiwvt3652771.shtml"
+  },
+  {
+    "category": "汽车",
+    "title": "9家乘用车企Q1报：大部分利润承压 海外业务成重要增长极",
+    "summary": "截至4月30日已有9家主要乘用车上市公司披露一季报，大部分车企利润承压，但海外业务成为重要增长极。",
+    "source": "网易",
+    "url": "https://www.163.com/dy/article/KRS3V26I0511U82T.html"
+  },
+  {
+    "category": "汽车",
+    "title": "吉利Q1财报：单车运营利润翻倍至0.6万 追平比亚迪",
+    "summary": "吉利Q1总收入838亿元同比增15%，单车运营利润翻倍至0.6万元追平比亚迪，极氪ASP升至29.5万-30万。",
+    "source": "虎嗅",
+    "url": "https://www.huxiu.com/article/4854972.html"
+  },
+  {
+    "category": "房产",
+    "title": "天津广州深圳同日发布楼市新政",
+    "summary": "4月30日三城密集出台楼市新政，含公积金贷款、换房补贴等",
+    "source": "中国基金报",
+    "url": "https://www.chnfund.com/article/ARf5a0085b-3504-ec46-7090-3a20f0536a6e"
+  },
+  {
+    "category": "房产",
+    "title": "全国卖地收入回到2013年水平",
+    "summary": "全国土地出让收入持续下降，已回落至2013年水平",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1kYorBcEXR/"
+  },
+  {
+    "category": "房产",
+    "title": "新一波救市：单月连发5道利好政策",
+    "summary": "2026年单月连发5道楼市利好为4年来少见",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1Rx9hB5EGg/"
+  },
+  {
+    "category": "房产",
+    "title": "年轻人不急于买房：租售比持续偏离",
+    "summary": "楼市租售比越来越离谱，年轻人购房观念转变",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1ZC9FBhEsF/"
+  },
+  {
+    "category": "房产",
+    "title": "北京房价掉回2016年，楼市筑底信号频现",
+    "summary": "北京笼子价回落至2016年水平，单月连发5道楼市利好政策",
+    "source": "B站",
+    "url": "https://www.bilibili.com/video/BV1rt9DByECD/"
+  },
+  {
+    "category": "房产",
+    "title": "深圳广州天津相继出台楼市新政，落实政治局会议精神",
+    "summary": "政治局会议提努力稳定房地产市场后，五一前重点城市政策响应明显加快",
+    "source": "凤凰财经",
+    "url": "https://finance.ifeng.com/c/8skkYwhXvVu"
+  },
+  {
+    "category": "房产",
+    "title": "广州公积金贷款最高额度提至100万，育儿家庭叠加可达360万",
+    "summary": "广州优化公积金政策，个人最高100万，两人及以上200万，育儿家庭叠加后可达360万",
+    "source": "网易",
+    "url": "https://c.m.163.com/news/a/KRPSLSJK0530NLC9.html"
+  },
+  {
+    "category": "房产",
+    "title": "2026年4月中国采购经理指数运行情况发布",
+    "summary": "国家统计局发布2026年4月PMI数据，服务业调查中心与中国物流与采购联合会联合公布。",
+    "source": "国家统计局",
+    "url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260430_1963473.html"
+  },
+  {
+    "category": "房产",
+    "title": "五一假期多地推出购房优惠 楼市促销力度加大",
+    "summary": "五一期间多地开发商推出首付9.9万起等促销活动，但市场整体仍面临价格下行压力。",
+    "source": "B站/新浪",
+    "url": "https://www.bilibili.com/video/BV1KD9xBXELY/"
+  }
+]
