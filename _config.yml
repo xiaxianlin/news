@@ -1,0 +1,24 @@
+source: .
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+title: "📡 每日新闻简报"
+description: "AI 驱动的全网新闻采集与简报系统"
+url: "https://xiaxianlin.github.io"
+baseurl: "/news"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /:categories/:year-:month-:day/
+
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
