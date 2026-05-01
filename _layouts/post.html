@@ -18,7 +18,6 @@ layout: default
     {% endif %}
 </div>
 
-<!-- Hidden raw content for JS to parse -->
 <div id="raw-content" style="display:none">{{ content }}</div>
 
 <script>
@@ -26,52 +25,55 @@ layout: default
     const raw = document.getElementById('raw-content');
     const grid = document.getElementById('masonry-grid');
 
-    // Parse sections from H2 headings
     const sections = [];
     let current = null;
 
     function walk(nodes) {
         for (const node of nodes) {
-            if (node.nodeType === 1) { // Element
-                if (node.tagName === 'H2') {
-                    if (current) sections.push(current);
-                    current = { title: node.textContent.trim(), items: [], comment: null };
-                } else if (node.tagName === 'BLOCKQUOTE') {
-                    if (current) {
-                        const text = node.textContent.trim();
-                        current.comment = text.replace(/^AI 锐评\s*/, '').replace(/^\*{0,2}AI 锐评\*{0,2}\s*/, '');
-                    }
-                } else if (node.tagName === 'UL') {
-                    if (current) {
-                        node.querySelectorAll(':scope > li').forEach(li => {
-                            const html = li.innerHTML;
-                            // Try to split title (bold) and summary
-                            const strongMatch = html.match(/^<strong>(.*?)<\/strong>\s*(.*)/s);
-                            if (strongMatch) {
-                                current.items.push({ title: strongMatch[1], summary: strongMatch[2].replace(/^[-—]\s*/, '') });
-                            } else {
-                                current.items.push({ title: html.replace(/<[^>]+>/g, '').replace(/^[-—]\s*/, ''), summary: '' });
-                            }
-                        });
-                    }
-                } else if (node.tagName === 'H3' && current) {
-                    // H3 becomes an item title
-                    current.items.push({ title: node.textContent.trim(), summary: '', isSubtitle: true });
-                } else if (node.tagName === 'P' && current) {
-                    const text = node.textContent.trim();
-                    if (text && !text.startsWith('📡') && !text.startsWith('采集')) {
-                        // Add as summary to last item
-                        if (current.items.length > 0 && !current.items[current.items.length - 1].isSubtitle) {
-                            if (current.items[current.items.length - 1].summary) {
-                                current.items[current.items.length - 1].summary += ' ' + text;
-                            } else {
-                                current.items[current.items.length - 1].summary = text;
-                            }
-                        }
-                    }
-                } else if (node.children.length > 0 && node.tagName !== 'HR') {
-                    walk(node.childNodes);
+            if (node.nodeType !== 1) continue;
+            const tag = node.tagName;
+
+            if (tag === 'HR') continue;
+
+            if (tag === 'H2') {
+                if (current) sections.push(current);
+                current = { title: node.textContent.trim(), items: [], comment: null };
+            } else if (tag === 'BLOCKQUOTE') {
+                if (current) {
+                    current.comment = node.textContent.trim()
+                        .replace(/^AI 锐评[：:]\s*/i, '')
+                        .replace(/^\*{0,2}AI 锐评\*{0,2}[：:]*\s*/i, '');
                 }
+            } else if (tag === 'UL') {
+                if (current) {
+                    node.querySelectorAll(':scope > li').forEach(li => {
+                        const html = li.innerHTML;
+                        const m = html.match(/^<strong>(.*?)<\/strong>\s*(.*)/s);
+                        if (m) {
+                            current.items.push({ title: m[1], summary: m[2].replace(/^[-—]\s*/, '').trim() });
+                        } else {
+                            current.items.push({ title: html.replace(/<[^>]+>/g, '').replace(/^[-—]\s*/, ''), summary: '' });
+                        }
+                    });
+                }
+            } else if (tag === 'H3' && current) {
+                // Sub-headline inside a section, treat as a news item
+                const next = node.nextElementSibling;
+                let summary = '';
+                if (next && next.tagName === 'UL') {
+                    const lis = next.querySelectorAll(':scope > li');
+                    summary = Array.from(lis).map(li => li.textContent.trim().replace(/^[-—]\s*/, '')).join('；');
+                }
+                current.items.push({ title: node.textContent.trim(), summary });
+            } else if (tag === 'P' && current) {
+                const text = node.textContent.trim();
+                if (text && !text.startsWith('📡') && !text.startsWith('采集') && !text.startsWith('>') && current.items.length > 0) {
+                    const last = current.items[current.items.length - 1];
+                    if (last.summary) last.summary += ' ' + text;
+                    else last.summary = text;
+                }
+            } else if (node.children.length > 0 && tag !== 'HR') {
+                walk(node.childNodes);
             }
         }
     }
@@ -79,74 +81,48 @@ layout: default
     walk(raw.childNodes);
     if (current) sections.push(current);
 
-    // Category icon map
     const icons = {
         '头条': '🔥', '科技': '🔬', '财经': '📊', '国际': '🌍',
         '政策': '📋', '社会': '🏙️', '时尚': '👗', '娱乐': '🎬',
         '体育': '⚽', '汽车': '🏎️', '房产': '🏠'
     };
-    const tagClasses = {
-        '头条': 'tag-国际', '科技': 'tag-科技', '财经': 'tag-财经', '国际': 'tag-国际',
-        '政策': 'tag-政策', '社会': 'tag-社会', '时尚': 'tag-时尚', '娱乐': 'tag-娱乐',
-        '体育': 'tag-体育', '汽车': 'tag-汽车', '房产': 'tag-房产'
+    const tagColors = {
+        '头条': '#ff3b30', '科技': '#5856d6', '财经': '#ff9500', '国际': '#ff3b30',
+        '政策': '#af52de', '社会': '#30b0c7', '时尚': '#ff2d55', '娱乐': '#ff6b35',
+        '体育': '#34c759', '汽车': '#007aff', '房产': '#5ac8fa'
     };
 
-    function getIcon(title) {
-        for (const [key, icon] of Object.entries(icons)) {
-            if (title.includes(key)) return icon;
-        }
-        return '📌';
-    }
-    function getTagClass(title) {
-        for (const [key, cls] of Object.entries(tagClasses)) {
-            if (title.includes(key)) return cls;
-        }
-        return '';
-    }
-    function getCatName(title) {
-        for (const key of Object.keys(icons)) {
-            if (title.includes(key)) return key;
-        }
-        return '';
-    }
+    function getIcon(t) { for (const [k,v] of Object.entries(icons)) if (t.includes(k)) return v; return '📌'; }
+    function getColor(t) { for (const [k,v] of Object.entries(tagColors)) if (t.includes(k)) return v; return '#86868b'; }
+    function getCat(t) { for (const k of Object.keys(icons)) if (t.includes(k)) return k; return ''; }
 
-    // Render sections as cards
     let html = '';
-    sections.forEach((section, si) => {
+    sections.forEach(section => {
         const icon = getIcon(section.title);
-        const catName = getCatName(section.title);
-        const tagCls = getTagClass(section.title);
+        const color = getColor(section.title);
+        const cat = getCat(section.title);
         const isHeadline = section.title.includes('头条');
 
-        // Section header card
-        html += `<div class="card section-header-card ${isHeadline ? 'headline-section' : ''}">
-            <div class="card-inner">
-                <div class="section-label">
-                    <span class="icon">${icon}</span>
-                    <span>${section.title}</span>
-                </div>
+        html += `<div class="cat-card" style="--cat-color:${color}">
+            <div class="cat-header">
+                <span class="cat-icon">${icon}</span>
+                <span class="cat-title">${section.title}</span>
+                <span class="cat-count">${section.items.length}</span>
             </div>
+            <div class="cat-body">
+                ${section.items.map((item, i) => `
+                    <div class="news-row">
+                        <div class="news-title">${i === 0 && isHeadline ? '<span class="badge">热点</span>' : ''}${item.title}</div>
+                        ${item.summary ? `<div class="news-summary">${item.summary}</div>` : ''}
+                    </div>
+                `).join('')}
+            </div>
+            ${section.comment ? `
+            <div class="cat-comment">
+                <div class="comment-label">🤖 AI 锐评</div>
+                <div class="comment-text">${section.comment}</div>
+            </div>` : ''}
         </div>`;
-
-        // News item cards
-        section.items.forEach((item, ii) => {
-            const isMainHeadline = isHeadline && ii < 3;
-            html += `<div class="card ${isMainHeadline ? 'headline' : ''}">
-                <div class="card-inner">
-                    ${catName ? `<span class="card-tag ${tagCls}">${catName}</span>` : ''}
-                    <h4>${item.title}</h4>
-                    ${item.summary ? `<div class="summary">${item.summary}</div>` : ''}
-                </div>
-            </div>`;
-        });
-
-        // AI comment card
-        if (section.comment) {
-            html += `<div class="ai-comment-card">
-                <div class="label">🤖 AI 锐评</div>
-                <p>${section.comment}</p>
-            </div>`;
-        }
     });
 
     grid.innerHTML = html;
