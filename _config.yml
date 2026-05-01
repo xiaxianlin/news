@@ -22,3 +22,5 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - vendor
+  - .github
